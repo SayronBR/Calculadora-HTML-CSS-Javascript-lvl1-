@@ -1,0 +1,76 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(32, 32, 46);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#numero1{
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+}
+#numero2{
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+}
+
+
+
+#Calculadora{
+    text-align: center;
+    color: white;
+}
+
+#SOMA{
+    width: 30px;
+    height: 80px;
+    border: 2px solid;
+ }
+#SOMA:hover{
+    background-color: rgb(26, 20, 31);
+    width: 40px;
+    height: 90px;
+}
+
+
+ #DIVI{
+    width: 30px;
+    height: 80px;
+    border: 2px solid;
+ }
+#DIVI:hover{
+    background-color: rgb(26, 20, 31);
+    width: 40px;
+    height: 90px;
+}
+ #MULT{
+    width: 30px;
+    height: 80px;
+    border: 2px solid;
+ }
+ #MULT:hover{
+    background-color: rgb(26, 20, 31);
+    width: 40px;
+    height: 90px;
+}
+ 
+ #SUBI{
+    width: 30px;
+    height: 80px;
+    border: 2px solid;
+ }
+ #SUBI:hover{
+    background-color: rgb(26, 20, 31);
+    width: 40px;
+    height: 90px;
+}
+ 
+ 
+ 

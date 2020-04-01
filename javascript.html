@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Estilo.css">
+  </head>
+<body>
+
+  <div id ="Calculadora" > <h1>CALCULADORA LVL1 </h1></div>
+
+    <div class="insercao">
+
+      <input id= "numero1"type="text"> </input>
+      <input id ="numero2" type="text"></input> </div> <br>
+   
+      
+    
+      <input id="SOMA" type="button" onclick="soma()" value="+" >
+      <input id="MULT" type="button" onclick="multiplicacao()" value="*">
+      <input id="DIVI" type="button" onclick="dividir()" value="/">
+      <input id="SUBI" type="button" onclick="subitrair()" value="-">  
+
+      <h1>Resultado:</h1>
+  <span id="result"></span>
+
+
+
+
+
+</div>
+
+<script>
+function soma() {
+  var A= document.getElementById("numero1").value;
+  var B=document.getElementById("numero2").value;
+  var Resultado = parseInt(A) + parseInt(B);
+
+  document.getElementById("result").innerHTML = Resultado;
+
+  
+
+}
+function multiplicacao() {
+  var A= document.getElementById("numero1").value;
+  var B=document.getElementById("numero2").value;
+  var Resultado =A*B;
+
+  document.getElementById("result").innerHTML = Resultado;
+
+  
+
+}
+
+function dividir() {
+  var A= document.getElementById("numero1").value;
+  var B=document.getElementById("numero2").value;
+  var Resultado = parseInt(A) / parseInt(B);
+
+  document.getElementById("result").innerHTML = Resultado;
+
+  
+
+}
+function subitrair() {
+  var A= document.getElementById("numero1").value;
+  var B=document.getElementById("numero2").value;
+  var Resultado = parseInt(A) - parseInt(B);
+
+  document.getElementById("result").innerHTML = Resultado;
+
+  
+
+}
+
+
+
+</script>
+
+</body>
+</html>
